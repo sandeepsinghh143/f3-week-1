@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color:white;
+    padding:0 5%;
+}
+.form{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form div{
+    width:30%;
+}
+input{
+    margin-top: 20px;;
+    width:100%;
+    padding :10px 0px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+.btn{
+    margin-top:30px;
+}
+button{
+    padding: 10px 50px;
+    cursor: pointer;
+}
+#content{
+    margin-top: 50px;
+}
+.main-div{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+.employee-details{
+    border:1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    width:30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.delete{
+    margin-left: 20px;
+    border-radius: 30px;
+    white-space: nowrap;
+}
+
+@media screen  and (max-width:1080px) {
+    .form div{
+        width:80%;
+    }
+    .employee-details{
+        width:60%;
+    }
+}
