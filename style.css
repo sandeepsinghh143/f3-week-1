@@ -28,6 +28,9 @@ button{
     padding: 10px 50px;
     cursor: pointer;
 }
+#count{
+    color: rgba(73, 76, 78, 0.744);
+}
 #content{
     margin-top: 50px;
 }
